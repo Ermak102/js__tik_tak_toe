@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+}
+
+:root{
+    --size: calc(1vw + 1vh)
+}
+
+.container{
+    max-width: 970px;
+    height: 100%;
+
+    padding: 0 calc(var(--size) * 4);
+    margin: 0 auto;
+}
